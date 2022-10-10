@@ -9,10 +9,10 @@ const Experiences = () => {
                 <h5>Depuis DECEMBRE-2021</h5>
                 <p>Fonction:</p>
                 <ul>
-                    <li>Développement des sites web</li>
+                    <li>Développeur sites web</li>
                     <li>Développement d'application web</li>
                     <li>Référencement SEO</li>
-                    <li>Développement des sites web</li>
+                    
                 </ul>
                 
 

@@ -1,13 +1,16 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
+import ProjectList from '../components/Portfolio/ProjectList';
 
-const portfolio = () => {
+
+const Portfolio = () => {
     return (
         <div className='portfolio'>
             <Navigation/>
-            I am the page portfolio
+            <ProjectList/>
+        
         </div>
     );
 };
 
-export default portfolio;
+export default Portfolio;

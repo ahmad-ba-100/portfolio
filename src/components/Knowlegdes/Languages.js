@@ -7,14 +7,14 @@ class Languages extends Component {
             { id:1, value:"PHP",  xp:2},
             { id:2, value:"JAVASCRIPT",  xp:1},
             { id:3, value:"PYTHON",  xp:0.7},
-            { id:4, value:"HTML",  xp:2},
-            { id:5, value:"CSS",  xp:2}
+            { id:4, value:"HTML&CSS",  xp:2},
+           
         ],
         frameworks: [
             { id:1, value:"LARAVEL",  xp:1},
             { id:2, value:"REACT",  xp:0.3},
-            { id:3, value:"DJANGO",  xp:0.2},
-            { id:4, value:"BOOTSTRAP",  xp:0.3}
+            // { id:3, value:"DJANGO",  xp:0.2},
+            { id:4, value:"BOOTSTRAP",  xp:2}
 
         ],
        
@@ -27,6 +27,7 @@ class Languages extends Component {
                 languages={languages}
                 className="languagesDisplay"
                 title="languages" 
+
                 />
                 <ProgressBar
                 languages={frameworks}
