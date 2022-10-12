@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ahmad-ba-100.github.io/myportfolio",
+  "homepage": "https://ahmad-ba-100.github.io/portfolio",
   "name": "amamdou_ba",
   "version": "0.1.0",
   "private": true,
@@ -19,6 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
