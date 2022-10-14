@@ -14,7 +14,7 @@
         position: absolute;
         height: 100%;
         width: inherit;
-        background: url('../../media/Amadou-ba-Dev.jpeg') no-repeat center/cover;
+        background: url('../../media/Amadou-BA.jpeg') no-repeat center/cover;
         z-index: -20;
         filter: brightness(40%);
       }
@@ -63,7 +63,7 @@
   @media screen and (max-width:580px){
     .homeContent {
       &:after {
-      background: url('../../media/Amadou-BA.jpeg') no-repeat 60% 50%/cover !important;
+      background: url('../../media/Amadou-ba-Dev.jpeg') no-repeat 60% 50%/cover !important;
       }
       h1 {
         font-size: 3rem !important;
